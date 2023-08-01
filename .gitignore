@@ -1,1 +1,2 @@
-config.env/
+/client/config.env
+/api/config.env
