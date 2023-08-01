@@ -1,8 +1,6 @@
 # Buyers-Point
 **Project Name**
 
-(https://img.freepik.com/free-photo/colorful-circle-with-letter-r-it_1340-32921.jpg?size=626&ext=jpg&ga=GA1.2.114796757.1679858669&semt=ais_ai_generated)
-
 **Project Description**
 
 This project is an innovative and user-friendly web application that provides an enjoyable shopping experience to users. It allows users to register and log in to their accounts, giving them access to a wide range of products. The platform offers various features, including product filtering, sorting, and adding products to the cart and wishlist. Users can also customize their preferences using the dark mode option.
