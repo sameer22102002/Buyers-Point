@@ -1,0 +1,80 @@
+.transactionsPage {
+  padding: 20px;
+  flex: 4;
+}
+
+.transactionsPage h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.transactionsContainer {
+  margin-top: 20px;
+}
+
+.transactionItem {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.transactionItem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.transactionId,
+.transactionCost,
+.transactionUser,
+.transactionDate {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #4f4f4f;
+}
+
+.transactionId b,
+.transactionCost b,
+.transactionUser b,
+.transactionDate b {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.transactionDate {
+  color: #888;
+}
+
+.transactionButtons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #fff;
+}
+
+.button-view {
+  background-color: #2ecc71;
+}
+
+.button-delete {
+  background-color: #e74c3c;
+  margin-left: 10px;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}

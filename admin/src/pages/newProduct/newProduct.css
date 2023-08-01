@@ -1,0 +1,94 @@
+/* newProduct.css */
+.newProduct {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.addProductTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.addProductForm {
+  width: 100%;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.addProductItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.addProductItem > label {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input,
+.addProductItem > select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease;
+  background-color: #f7f7f7;
+}
+
+.addProductItem > input::placeholder,
+.addProductItem > select option {
+  color: #999;
+}
+
+.addProductItem > input:focus,
+.addProductItem > select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.addProductItem > select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='currentColor' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M7.293 7.293a1 1 0 0 1 1.414 0L10 8.586l1.293-1.293a1 1 0 1 1 1.414 1.414L11.414 10l1.293 1.293a1 1 0 0 1-1.414 1.414L10 11.414l-1.293 1.293a1 1 0 0 1-1.414-1.414L8.586 10 7.293 8.707a1 1 0 0 1 0-1.414z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  cursor: pointer;
+}
+
+.addProductButton {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-end;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addProductButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.addProductButton:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .addProductForm {
+    grid-template-columns: 1fr;
+  }
+}

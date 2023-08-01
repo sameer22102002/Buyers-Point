@@ -1,0 +1,98 @@
+.Complains {
+  flex: 4;
+}
+
+.Container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.QueryItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.QueryItem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Email {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4f4f4f;
+}
+
+.Message {
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+.EmptyMessage {
+  font-size: 18px;
+  color: #4f4f4f;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.Unique {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.QueryItem:hover {
+  transform: translateY(-2px);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:focus {
+  border: 2px solid #4caf50;
+  background-color: #4caf50;
+}

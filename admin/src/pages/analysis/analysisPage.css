@@ -1,0 +1,71 @@
+.analysisPageContainer {
+  flex: 4;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analysisTable {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.analysisTable th {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid #333;
+  background-color: #5b6774;
+  color: #fff;
+  font-weight: bold;
+}
+
+.analysisTable td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.analysisTable tr:last-child td {
+  border-bottom: none;
+}
+
+.analysisTable tbody tr:hover {
+  background-color: #f2f2f2;
+  transition: background-color 0.2s ease;
+}
+
+.analysisTable td:last-child {
+  text-align: center;
+}
+
+.analysisTable th:last-child,
+.analysisTable td:last-child {
+  min-width: 100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .analysisPageContainer {
+    padding: 10px;
+  }
+}
