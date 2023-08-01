@@ -1,7 +1,7 @@
 # Buyers-Point
 **Project Name**
 
-![Project Logo](https://img.freepik.com/free-photo/colorful-circle-with-letter-r-it_1340-32921.jpg?size=626&ext=jpg&ga=GA1.2.114796757.1679858669&semt=ais_ai_generated)
+(https://img.freepik.com/free-photo/colorful-circle-with-letter-r-it_1340-32921.jpg?size=626&ext=jpg&ga=GA1.2.114796757.1679858669&semt=ais_ai_generated)
 
 **Project Description**
 
